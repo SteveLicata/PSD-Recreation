@@ -1,0 +1,69 @@
+@main-background: whitesmoke;
+@black: blue;
+@white: white;
+@gray: gray;
+@main-font: monospace;
+
+body {
+  background-color: @main-background;
+}
+
+.header, .footer {
+  background-color: @white;
+  width: 100%;
+  color: @black;
+  font-family: @main-font;
+}
+
+.topdiv {
+  background-color: @main-background;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  color: @gray;
+  z-index: 1;
+  position: absolute;
+  left: 100px;
+  margin-left: -100px;
+}
+
+#img1, #img2, #img3, #img4, #postsbutton {
+  display:block;
+  margin: 0 auto;
+}
+
+.middlediv {
+  background-color: @white;
+  width: 60%;
+  color: @gray;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+  margin-top: 1025px;
+}
+
+h1, h4 {
+  text-align: center;
+  color: @black;
+  font-family: sans-serif;
+}
+
+.bottomdiv {
+  background-color: lightgray;
+  color: @gray;
+  width: auto;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+p, a {
+  font-size: 16px;
+  color: @black
+}
+
+#submit {
+  color: @main-background;
+  background-color: @black
+}
