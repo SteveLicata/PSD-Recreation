@@ -52,10 +52,14 @@ h4 {
 }
 p,
 a {
-  font-size: 16px;
+  font-size: 14px;
   color: black;
 }
 #submit {
   color: whitesmoke;
   background-color: black;
+}
+
+.topmenu {
+  font-size: 10px;
 }
